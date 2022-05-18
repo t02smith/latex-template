@@ -1,7 +1,6 @@
 \documentclass[12pt]{article}
 
-\input{commands}
-\input{templates}
+\input{utility/utility}
 
 \begin{document}
 
@@ -12,10 +11,11 @@
 
 %% INPUT SECTIONS
 
-
 %% END OF SECTIONS
 
-\bibliographystyle{harvard}
+\bibliographystyle{plain}
 \bibliography{ref.bib}
+
+\input{sections/appendix/appendix.tex}
 
 \end{document}
